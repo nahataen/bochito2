@@ -1,0 +1,61 @@
+
+.navegacion{
+    background: rgba(0,0,0,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+border-radius: 20px;            
+-webkit-box-shadow: 24px 37px 73px 15px rgba(0,0,0,0.75);
+-moz-box-shadow: 24px 37px 73px 15px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 10px 1px rgba(0,0,0,0.75);
+
+}
+a{
+    border-right: solid 1px;
+   
+}
+ul,li,a{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+ 
+ 
+    
+}
+a:hover{
+     
+    color:#ff9bf2;
+    filter: blur(1px);
+ 
+
+}
+
+
+body{
+    background: url("https://moewalls.com/wp-content/uploads/2023/01/bocchi-playing-guitar-bocchi-the-rock-thumb.jpg") center/cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+th{ font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+border-radius: 5px;
+color: aliceblue;
+
+}td{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+border-radius: 5px;
+
+text-align: center;
+}
